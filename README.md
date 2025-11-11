@@ -1,12 +1,14 @@
-🏦 Bank Transaction Monitoring System
-📘 Overview
+**🏦 Bank Transaction Monitoring System**
+
+**📘 Overview**
 
 The Bank Transaction Monitoring System is a Python and SQL-based project designed to manage, monitor, and analyze financial data in a simulated banking environment.
 It focuses on tracking customer details, account relationships, and transaction patterns to identify key insights such as spending behavior, account activity, and financial performance.
 
 By integrating Python with SQL (SQLite3), the system provides a reliable and efficient way to perform data storage, retrieval, and analysis through well-structured relational databases and analytical SQL queries.
 
-🎯 Objectives
+---
+**🎯 Objectives**
 
 Develop a structured banking database for storing customer, account, and transaction information.
 
@@ -18,7 +20,8 @@ Automate data handling and report generation using Python.
 
 Present analytical results in tabular and readable formats for easy understanding.
 
-⚙️ Key Features
+---
+**⚙️ Key Features**
 
 Customer & Account Management: Stores and manages detailed banking data.
 
@@ -32,7 +35,8 @@ Automated Output Display: Uses Python’s tabulate and pandas libraries to displ
 
 Error Handling: Handles missing or null values using SQL functions like COALESCE.
 
-🧩 Tech Stack
+---
+**🧩 Tech Stack**
 
 Programming Language: Python
 
@@ -44,7 +48,8 @@ Tools: Google Colab / Jupyter Notebook
 
 Concepts Used: SQL Joins, Aggregation, Subqueries, Data Cleaning, COALESCE
 
-🧮 Methodology
+---
+**🧮 Methodology**
 
 Database Creation: Design normalized tables for customers, accounts, and transactions.
 
@@ -56,12 +61,14 @@ Data Analysis: Use conditional statements and joins to extract meaningful patter
 
 Result Visualization: Present findings in a structured tabular format using Python libraries.
 
-📊 Results
+---
+**📊 Results**
 
 The project successfully demonstrated efficient banking data management and transaction monitoring using SQL.
 It provided accurate insights into account balances, transaction history, and linked account relationships, ensuring clarity and transparency in financial data reporting.
 
-🚀 Future Enhancements
+---
+**🚀 Future Enhancements**
 
 Integrate real-time transaction monitoring for fraud or anomaly detection.
 
