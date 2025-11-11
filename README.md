@@ -78,10 +78,10 @@ Install dependencies:
 
 pip install pandas tabulate
 
-
 Run the Python file or notebook cells sequentially.
 
 Check the database output in tabulated format.
+
 
 **📈 Future Enhancements**
 
