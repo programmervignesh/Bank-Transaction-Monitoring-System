@@ -7,6 +7,7 @@ This project focuses on building a relational database for a bank and executing 
 
 The system integrates SQLite3 for database operations and Pandas with Tabulate for displaying and analyzing data in a structured, readable format using Google Colab.
 
+
 **🚀 Key Features**
 
 🧾 Customer and Account Management:
@@ -27,6 +28,7 @@ Integrate Python scripts to run parameterized SQL queries and visualize results 
 🧩 Error Handling and Data Integrity:
 Use COALESCE, GROUP BY, and LEFT JOIN for clean data analysis and NULL-safe reporting.
 
+
 **🛠️ Technologies Used**
 
 Programming Language: Python
@@ -39,6 +41,7 @@ Environment: Google Colab / Jupyter Notebook
 
 Concepts: SQL Joins, Aggregations, Subqueries, COALESCE, Data Normalization
 
+
 **📂 Database Design**
 
 The project contains the following key tables:
@@ -50,6 +53,7 @@ BANK_ACC_TRAN	Tracks all transactions and amounts
 Bank_Account_Relationship_Details	Links primary, savings, and credit card accounts
 BANK_CUSTOMER_MSG	Contains customer event messages
 BANK_INTEREST_RATE	Stores interest rate information for account types
+
 
 **🧮 Sample Queries Implemented**
 
@@ -64,6 +68,7 @@ Exclusion of specific month transactions (e.g., March 2020)
 Total balance deduction based on debit transactions
 
 Relationship-wise balance and transaction summaries
+
 
 **🧰 Setup Instructions**
 
@@ -81,6 +86,7 @@ pip install pandas tabulate
 Run the Python file or notebook cells sequentially.
 
 Check the database output in tabulated format.
+
 
 
 **📈 Future Enhancements**
