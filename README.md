@@ -1,35 +1,38 @@
-**🏦 Bank Transaction Monitoring System**
+🏦 Bank Transaction Monitoring System
+📘 Overview
 
-**📘 Overview**
+The Bank Transaction Monitoring System is a Python and SQL-based project designed to manage, monitor, and analyze financial data in a simulated banking environment.
+It focuses on tracking customer details, account relationships, and transaction patterns to identify key insights such as spending behavior, account activity, and financial performance.
 
-The Bank Transaction Monitoring System is a Python and SQL-based project designed to simulate and analyze core banking operations such as customer management, account linking, and transaction tracking.
-This project focuses on building a relational database for a bank and executing SQL queries through Python to perform real-time transaction analysis, detect anomalies, and generate meaningful insights.
+By integrating Python with SQL (SQLite3), the system provides a reliable and efficient way to perform data storage, retrieval, and analysis through well-structured relational databases and analytical SQL queries.
 
-The system integrates SQLite3 for database operations and Pandas with Tabulate for displaying and analyzing data in a structured, readable format using Google Colab.
+🎯 Objectives
 
+Develop a structured banking database for storing customer, account, and transaction information.
 
-**🚀 Key Features**
+Analyze account balances and transaction histories using SQL queries.
 
-🧾 Customer and Account Management:
-Create and maintain detailed customer profiles and associated bank accounts.
+Monitor relationships between primary, savings, and credit card accounts.
 
-💳 Linked Account Relationship Tracking:
-Connect and monitor relationships between primary accounts, savings accounts, and credit cards.
+Automate data handling and report generation using Python.
 
-💰 Transaction Management:
-Record, track, and analyze deposits, withdrawals, and online transactions.
+Present analytical results in tabular and readable formats for easy understanding.
 
-📊 SQL Query-Based Analytics:
-Execute advanced SQL operations such as joins, aggregates, and subqueries to analyze banking data.
+⚙️ Key Features
 
-🧠 Automated Data Retrieval with Python:
-Integrate Python scripts to run parameterized SQL queries and visualize results in tabular format.
+Customer & Account Management: Stores and manages detailed banking data.
 
-🧩 Error Handling and Data Integrity:
-Use COALESCE, GROUP BY, and LEFT JOIN for clean data analysis and NULL-safe reporting.
+Transaction Tracking: Records all deposits, withdrawals, and transfers with timestamps.
 
+Relational Linking: Maps account relationships such as savings and linked credit cards.
 
-**🛠️ Technologies Used**
+Query-Based Analysis: Executes SQL queries for pattern detection and summary insights.
+
+Automated Output Display: Uses Python’s tabulate and pandas libraries to display formatted results.
+
+Error Handling: Handles missing or null values using SQL functions like COALESCE.
+
+🧩 Tech Stack
 
 Programming Language: Python
 
@@ -37,64 +40,33 @@ Database: SQLite3
 
 Libraries: Pandas, Tabulate
 
-Environment: Google Colab / Jupyter Notebook
+Tools: Google Colab / Jupyter Notebook
 
-Concepts: SQL Joins, Aggregations, Subqueries, COALESCE, Data Normalization
+Concepts Used: SQL Joins, Aggregation, Subqueries, Data Cleaning, COALESCE
 
+🧮 Methodology
 
-**📂 Database Design**
+Database Creation: Design normalized tables for customers, accounts, and transactions.
 
-The project contains the following key tables:
+Data Insertion: Populate records for various banking entities using Python functions.
 
-**Table Name	Description**
-BANK_CUST	Stores customer information
-BANK_ACCOU	Maintains account details and balances
-BANK_ACC_TRAN	Tracks all transactions and amounts
-Bank_Account_Relationship_Details	Links primary, savings, and credit card accounts
-BANK_CUSTOMER_MSG	Contains customer event messages
-BANK_INTEREST_RATE	Stores interest rate information for account types
+Query Execution: Perform SQL operations for balance analysis and relationship tracking.
 
+Data Analysis: Use conditional statements and joins to extract meaningful patterns.
 
-**🧮 Sample Queries Implemented**
+Result Visualization: Present findings in a structured tabular format using Python libraries.
 
-Average balance maintained by each customer
+📊 Results
 
-Savings accounts linked with credit cards
+The project successfully demonstrated efficient banking data management and transaction monitoring using SQL.
+It provided accurate insights into account balances, transaction history, and linked account relationships, ensuring clarity and transparency in financial data reporting.
 
-Quarterly transaction analysis (Q1, Q2, etc.)
+🚀 Future Enhancements
 
-Exclusion of specific month transactions (e.g., March 2020)
+Integrate real-time transaction monitoring for fraud or anomaly detection.
 
-Total balance deduction based on debit transactions
+Develop a GUI interface using Tkinter or Streamlit for user interaction.
 
-Relationship-wise balance and transaction summaries
+Enable data visualization dashboards using Matplotlib or Power BI.
 
-
-**🧰 Setup Instructions**
-
-Clone this repository:
-
-git clone https://github.com/<your-username>/Bank-Transaction-Monitoring-System.git
-
-
-Open the project in Google Colab or Jupyter Notebook.
-
-Install dependencies:
-
-pip install pandas tabulate
-
-Run the Python file or notebook cells sequentially.
-
-Check the database output in tabulated format.
-
-
-
-**📈 Future Enhancements**
-
-Add a GUI interface using Tkinter or Streamlit.
-
-Integrate machine learning for fraud detection and behavior analytics.
-
-Enable CSV import/export for transaction logs.
-
-Visualize trends using Matplotlib or Power BI.
+Implement automated alerts for high-value or suspicious transactions.
